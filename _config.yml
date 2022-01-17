@@ -1,0 +1,33 @@
+# Site settings
+title: Zhang's Blog
+email: wasdpyzlp@gmail.com
+description: Zhang's Blog
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'tag'
+
+
+# Social account
+twitter:  1797662488
+# weibo:    3040028271
+github:   Ramer42
+# codepen:  username
+# dribbble: username
+
+# Comment
+disqus_shortname: pricezhang
+
+
+# Google Analytics
+google_analytics: UA-76382733-1
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
+port: 80

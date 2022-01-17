@@ -1,0 +1,77 @@
+
+audio::-webkit-media-controls
+  overflow: hidden !important
+
+audio::-webkit-media-controls-enclosure
+  width: calc(100% + 30px)
+  margin-left: auto
+
+audio
+  position: fixed
+  right: 3*$menu-size
+  z-index: 29				  
+  max-width: 70%
+
+.ctr
+  position: fixed
+  right: $menu-right
+  width: $menu-size
+  height: $menu-size
+  z-index: 30
+  background: #07BDEB
+  color: #fff
+  text-align: center
+  font-size: $menu-font-size
+  font-weight: bold
+  line-height: $menu-size
+  border-radius: 50px
+  cursor: pointer
+
+#pre
+  right: 2*$menu-size
+  font-size: 10px
+
+#nxt
+  right: $menu-size
+  font-size: 10px
+
+#menu
+  display: none
+  position: fixed
+  top: $menu-top
+  right: $menu-right
+  z-index: 30
+  width: $menu-size
+  height: $menu-size
+  padding: 0
+  background: transparent
+  border: none
+  border-radius: 50px
+  outline: none
+  overflow: hidden
+  cursor: pointer
+  &-icons
+    display: block
+    width: 200%
+    height: $menu-size
+    margin-left: -100%
+    @extend %icon
+    font-size: $menu-font-size
+    font-weight: bold
+    line-height: $menu-size
+    color: #fff
+    background: $sidebar-bg
+    overflow: hidden
+    transition: transform .35s $time-function
+    &:before
+      @extend %icon-left
+      float: left
+      width: 50%
+      background: $sidebar-bg
+    &:after
+      @extend %icon-right
+      float: left
+      width: 50%
+      background: $sidebar-rebg
+  &.open > &-icons
+    transform: translateX(50%)
