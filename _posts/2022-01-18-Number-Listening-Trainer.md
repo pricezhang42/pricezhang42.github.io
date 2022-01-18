@@ -12,7 +12,7 @@ tags:
 
 <img src="/img/in-post/2022-01-18-Number-Listening-Trainer/mainFrame.jpg" width="55%" />
 
-From last month I have been working on this project on and off, which is a small software designed to train proficiency for English numbers. This idea came from my experience of learning English and preparing for IELTS examination when I found listening to large data, phone numbers and dates in conversations and articles can really be a challenge because sometimes you feel there isn't enough time to react. I also asked some friends of mine and it seemed a lot of them have the same problem. Some languages like Franch even have more complex system for counting and numbers. So I think it's useful to make a training program for myself or someone else in need.
+From last month I have been working on this project on and off, which is a small software based on Java Swing designed to train proficiency for listening of English numbers. This idea came from my experience of learning English and preparing for IELTS examination when I found listening to large data, phone numbers and dates in conversations and articles can really be a challenge because sometimes you feel there isn't enough time to react. I also asked some friends of mine and it seemed a lot of them have the same problem. Some languages like Franch even have more complex system for counting and numbers. So I think it's useful to make a training program for myself or someone else in need.
 
 The basic idea of this program is to make 10 random numbers or dates and your mission is to follow and write them down.
 
