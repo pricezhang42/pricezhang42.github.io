@@ -13,6 +13,39 @@ tags:
 
 Since Swing is a pretty old GUI widget toolkit for Java, I find it's **extremely** hard to use. First of all is the layout, the default layout is almost totally useless. So I use `MigLayout` instead. (But I heard that the development tools by JetBrains such as Pycharm and IntelliJ IDEA are developed on Swing????)
 
+**File Structure:**
+```
+├─listener
+│      ButtonListener.java
+│      CheckBoxListener.java
+│      MyDocumentListener.java
+│      MyTextListener.java
+│      NumberPanelListener.java
+│      
+├─panel
+│  │  ControlPanel.java
+│  │  SettingPanel.java
+│  │  ShowPanel.java
+│  │  SpeedPanel.java
+│  │  
+│  └─panelOfSetting
+│          DatePanel.java
+│          ExtraNumberPanel.java
+│          ExtraPanel.java
+│          GeneratedNumPanel.java
+│          NumberPanel.java
+│          PhonePanel.java
+│          TextPanel.java
+│          
+├─run
+│      mainFrame.java
+│      
+└─util
+        ColorUtil.java
+        NumberClass.java
+        SpeakUtil.java
+```
+
 For the speech part of the program, I use Jacob to call Microsotf SAPI built in Windows to synthesize speech. 
 ```java
 import com.jacob.activeX.ActiveXComponent;
