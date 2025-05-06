@@ -19,6 +19,14 @@ Back-end Repo: https://github.com/pricezhang42/Commute-Compass-Backend
 Web and mobile version both use this backend app.
 Front-end Repo: https://github.com/pricezhang42/WinnipegBusTripPlanner
 
+```bash
+npx create-expo-app@latest
+npm run android
+
+npx @react-native-community/cli init NativeCall
+npx react-native run-android
+```
+
 ### Debugging
 Front-end app (mobile) built with **React Native** can be debugged with the built-in debugger in browser.
 
